@@ -7,3 +7,64 @@
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
     display:block;
 }
+
+body {
+    font-family: 'Fjalla One', 'Helvetica', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: #6003c3;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1.1;
+}
+
+main {
+    text-align: center;
+    padding-top: 50px;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #6003c3;
+    font-size: 1.6rem;
+    margin-bottom: 70px;
+}
+
+section {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h3 {
+    color: #6003c3;
+    font-size: 10rem;
+    padding: 40px 100px;
+}
+
+div {
+    border: 15px solid #6003c3;
+    border-radius: 10px;
+}
+
+.one {
+    background-color: #fcff00;
+}
+
+.two {
+    background-color: #57ffc9;
+}
+
+.three {
+    background-color: #a5ff01;
+}
