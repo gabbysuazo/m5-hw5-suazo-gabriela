@@ -12,6 +12,7 @@ for (i = 0; i < boxes.length; i++){
   boxes[i].addEventListener('mouseenter', boxHighlight);
 }
 
+
 // Apend DOM node
 
 // Box one message
@@ -46,3 +47,16 @@ function boxClickThree() {
 }
 
 boxes[2].addEventListener("click", boxClickThree);
+
+
+// Remove hidden button class
+
+function buttonDisplay() {
+  for (i = 0; i < boxes.length; i++){
+    document.getElementsByTagName("button")[0].removeAttribute("class");
+  }
+}
+
+for (i = 0; i < boxes.length; i++){
+  boxes[i].addEventListener('click', buttonDisplay);
+}

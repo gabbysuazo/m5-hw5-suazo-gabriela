@@ -81,3 +81,7 @@ div {
         margin: 0;
     }
 }
+
+.display-button {
+    display: none;
+}
