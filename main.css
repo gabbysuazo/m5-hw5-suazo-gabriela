@@ -35,7 +35,7 @@ h2 {
     text-transform: uppercase;
     color: #6003c3;
     font-size: 1.6rem;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
 }
 
 section {
@@ -80,6 +80,15 @@ div {
     div {
         margin: 0;
     }
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: #6003c3;
+    background-color: lightpink;
 }
 
 .display-button {
